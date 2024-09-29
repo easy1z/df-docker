@@ -61,7 +61,7 @@ services:
       - df-storage:/opt/dreamfactory/storage
     build: .
     ports:
-      - "80:80"
+      - "8100:80"
 
 #  Uncomment to enable Logs DB
 #  logsdb:
